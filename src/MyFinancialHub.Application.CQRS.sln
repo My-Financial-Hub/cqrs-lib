@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFinancialHub.Application.CQRS", "MyFinancialHub.Application.CQRS\MyFinancialHub.Application.CQRS.csproj", "{3C1050C9-62C7-4348-8E5E-353F2041812B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C1050C9-62C7-4348-8E5E-353F2041812B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C1050C9-62C7-4348-8E5E-353F2041812B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C1050C9-62C7-4348-8E5E-353F2041812B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C1050C9-62C7-4348-8E5E-353F2041812B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E38C6BDD-B057-4C06-8AFF-9C0DEED718AD}
+	EndGlobalSection
+EndGlobal
