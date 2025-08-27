@@ -1,13 +1,30 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
+  <PropertyGroup Label="Compiler">
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+	<GenerateDocumentationFile>True</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Label="Package">
+  	<Title>My Financial Hub CQRS</Title>
+  	<Description>A library for CQRS use.</Description>
+  	<Authors>My Financial Hub</Authors>
+  	<RepositoryUrl>https://github.com/My-Financial-Hub/cqrs-lib</RepositoryUrl>
+  	<PackageReadmeFile>readme.md</PackageReadmeFile>
+  	<IncludeSymbols>True</IncludeSymbols>
+	<SymbolPackageFormat>symbols.nupkg</SymbolPackageFormat>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.6" />
   </ItemGroup>
-
+	
+  <ItemGroup Label="Package">
+	<None Include="..\..\readme.md">
+		<Pack>True</Pack>
+		<PackagePath>\</PackagePath>
+	</None>
+  </ItemGroup>
 </Project>
